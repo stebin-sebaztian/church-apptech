@@ -1,0 +1,43 @@
+#mycontent{
+	min-height: 500px;
+}
+#mycontent table{
+	margin: auto;
+	margin-top: 100px;
+	border: 1px dotted silver;
+}
+#mycontent table td{
+	color: black;
+	padding: 10px;
+}
+#mycontent input[type='text'],input[type='password'],input[type='date'],input[type='email'],select{
+	border-radius: 10px;
+	padding: 4px;
+	width: 250px;
+}
+#mycontent  textarea{
+	width: 250px;
+	border-radius: 10px;
+	height: 100px;
+}
+#mycontent input[type='submit'],input[type='reset'],input[type='button']{
+	border-radius: 10px;
+	padding: 4px;
+}
+#mycontent span{
+	font-size:15px;
+	width: 200px;
+	color:red;
+	}
+#mycontent .datagrid{
+	width: 100%;
+	border-spacing: 0;
+	margin-left: 0;
+}
+#mycontent .datagrid th{
+	background-color: Red;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:yellow;
+}
+ 
